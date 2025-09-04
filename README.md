@@ -11,15 +11,15 @@ This project explores how different marketing channels influence sales using sta
 - Explore linear regression–based MMM with attention to challenges like multicollinearity and feature selection.
 - Engineer features to capture: Diminishing returns (Hill / exponential functions), Carryover effects (Adstock transformation), Seasonality & trends (Holt-Winters decomposition)
 
-Generate synthetic time series data with ARIMA + sinusoidal seasonality for testing.
+- Generate synthetic time series data with ARIMA + sinusoidal seasonality for testing.
 
-Evaluate models based on Mean Squared Prediction Error (MSPE).
+- Evaluate models based on Mean Squared Prediction Error (MSPE).
 
-🛠 Methods
+## 🛠 Methods
 
-Four models were tested and compared:
+- Four models were tested and compared:
 
-Baseline → media spend only
+1.) Baseline → media spend only
 
 Extended → spend + adstock + exponential (diminishing returns)
 
