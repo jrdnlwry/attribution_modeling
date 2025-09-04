@@ -21,33 +21,33 @@ This project explores how different marketing channels influence sales using sta
 
 1.) Baseline → media spend only
 
-Extended → spend + adstock + exponential (diminishing returns)
+2.) Extended → spend + adstock + exponential (diminishing returns)
 
-Advanced → spend + adstock + Hill function
+3.) Advanced → spend + adstock + Hill function
 
-Extended + Lagged Sales → spend + adstock + Hill + Holt-Winters lagged features
+4.) Extended + Lagged Sales → spend + adstock + Hill + Holt-Winters lagged features
 
 Statistical tests (ANOVA, adjusted R², F-tests) and MSPE on test data assessed model fit and predictive accuracy.
 
-📈 Key Findings
+## 📈 Key Findings
 
-Adding carryover (adstock) and diminishing return curves greatly improved predictive performance.
+- Adding carryover (adstock) and diminishing return curves greatly improved predictive performance.
 
-Holt-Winters lagged sales terms added only marginal improvements beyond Model 3.
+- Holt-Winters lagged sales terms added only marginal improvements beyond Model 3.
 
-Even simple regression-based MMMs benefit significantly from non-linear transformations and time-series feature engineering.
+- Even simple regression-based MMMs benefit significantly from non-linear transformations and time-series feature engineering.
 
-🚀 Repo Contents
+## 🚀 Repo Contents
 
-data/ → synthetic time series data generator (ARIMA + noise)
+- data/ → synthetic time series data generator (ARIMA + noise)
 
-notebooks/ → step-by-step exploration of Models 1–4
+- notebooks/ → step-by-step exploration of Models 1–4
 
-src/ → reusable functions for adstock, Hill/exponential transformations, Holt-Winters decomposition
+- src/ → reusable functions for adstock, Hill/exponential transformations, Holt-Winters decomposition
 
-results/ → model outputs, ANOVA comparisons, performance plots
+  - results/ → model outputs, ANOVA comparisons, performance plots
 
-🔍 References
+## 🔍 References
 
 Jin, Wang, Sun, Chan, & Koehler (2017) — Bayesian MMM & Hill functions
 
