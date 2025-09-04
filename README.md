@@ -9,11 +9,7 @@ This project explores how different marketing channels influence sales using sta
 ## 🎯 Goals
 
 - Explore linear regression–based MMM with attention to challenges like multicollinearity and feature selection.
-- Engineer features to capture:
-  Diminishing returns (Hill / exponential functions)
-  Carryover effects (Adstock transformation)
-
-Seasonality & trends (Holt-Winters decomposition)
+- Engineer features to capture: Diminishing returns (Hill / exponential functions), Carryover effects (Adstock transformation), Seasonality & trends (Holt-Winters decomposition)
 
 Generate synthetic time series data with ARIMA + sinusoidal seasonality for testing.
 
